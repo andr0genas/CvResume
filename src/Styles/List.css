@@ -1,0 +1,67 @@
+.list__container {
+    color: white;
+    background-color: black;
+    min-height: 850px;
+    padding-top: 100px;
+    transition: height 0.3s ease; /* Add transition effect */
+}
+
+.row-1{
+    text-align:left;
+    padding-top: 50px;
+}
+
+.list__infos_info {
+    text-align:center;
+    padding: 10px;
+    padding-top: 0;
+    opacity: 0;
+    transition: all 0.3s ease; 
+}
+
+.list__infos_info.active {
+    min-height: 655px;
+    padding-top: 20px;
+    opacity: 1;
+}
+
+.list__buttons {
+    width: 100%;
+    padding-left: 30px;
+   text-align: center;
+}
+
+.list__button {
+    margin: 5px;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+    padding: 10px 20px; /* Add padding for better button appearance */
+    font-weight: bold; /* Make text bold */
+    border-radius: 5px; /* Add border radius for rounded corners */
+}
+
+.list__button.active,
+.list__button:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.list__button.active {
+    transform: translateY(-2px);
+}
+
+.list__button:hover {
+    opacity: 0.8;
+}
+
+.list__infos_title {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.list__infos_content {
+    margin-top: 10px;
+    font-size: 18px;
+}

@@ -1,0 +1,12 @@
+.carousel-about-me {
+    background-color: black !important; 
+    height: 825px;
+  }
+
+  .carousel-about-me__image {
+    max-height: 825px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    position:static;
+  }

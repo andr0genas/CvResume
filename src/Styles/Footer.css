@@ -1,0 +1,19 @@
+/* Styling for the footer */
+.footer-container {
+    background-color:#212429; /* Dark background color */
+    color: #ffffff; /* White text color */
+  }
+
+  .footer-icon {
+    font-size: 24px; /* Icon size */
+    margin: 0 10px; /* Spacing between icons */
+    color: #ffffff;
+  }
+
+  .footer-icon:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+
+  .footer-text {
+    font-size: 14px; /* Footer text size */
+  }

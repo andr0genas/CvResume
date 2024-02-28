@@ -1,0 +1,79 @@
+/* Rating Form Styles */
+
+.rating__card-body.card__body{
+    padding-bottom: 50px;
+  }
+
+  .rating__col.col-md-6{
+    padding-top: 50px;
+  }
+  
+  .rating {
+    margin-top: 50px;
+    background-color: black;
+    height: 850px;
+  }
+  
+  .rating__card.card {
+    margin-top: 50px;
+  }
+  
+  .rating__stars {
+    margin-bottom: 30px;
+    text-align: center; /* Center align stars */
+  }
+  
+  .rating__star {
+    cursor: pointer;
+    font-size: 65px;
+    color: #ccc;
+    display: inline-block; /* Ensure stars are displayed in line */
+  }
+  
+  .rating__star:hover,
+  .rating__star.star--selected {
+    color: #ffc107;
+  }
+  
+  .rating__card {
+    padding-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .rating__label {
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .rating__input.form-control {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  
+  .rating__btn {
+    margin-top: 20px;
+    width: 50%;
+  }
+  
+  .rating__submitted-message {
+    color: green;
+  }
+  
+  .rating__error-message {
+    margin-top: 20px;
+    color: red;
+  }
+  
+  /* Center align text */
+  .rating__card-body {
+    text-align: center;
+  }
+  
+  /* Increase specificity for rating stars */
+  .rating__stars .rating__star {
+    position: relative; /* Ensure proper positioning */
+    z-index: 1; /* Ensure stars can be clicked */
+  }

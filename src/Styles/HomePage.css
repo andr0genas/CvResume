@@ -1,0 +1,76 @@
+/* Styles for HomePage component */
+
+/* Define a class for the primary button */
+.homepage__btn.btn-primary {
+    background-color: gold; /* Background color */
+    color: black; /* Text color */
+    font-weight: 700; /* Bold font weight */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Border radius */
+    border: none; /* No border */
+}
+
+
+/* Hover effect for primary button */
+.homepage__btn.btn-primary:hover {
+    background-color: #8b5a00; /* Darker background color on hover */
+}
+
+/* Styles for images */
+.img-fluid{
+    max-height: 500px; /* Maximum height */
+    padding-bottom: 100px;
+    border-radius: 2%; /
+}
+
+.text-left{
+    width:100%;
+    background-color: black
+}
+
+.col-12.homepage-container-background.d-flex.align-items-start{
+    padding: 0;
+}
+
+.homepage__content .justify-content-center {
+    background-color: black; /* Background color */
+    height: 650px; /* Height */
+    width:100%;
+}
+
+/* Styles for the title */
+.homepage__title {
+    margin-top: 50px; /* Top margin */
+    color: white; /* Text color */
+    animation: fadeInUp 6s ease-in-out infinite, fadeInDown 6s ease-in-out infinite; /* Animation */
+}
+
+/* Styles for the subtitle */
+.homepage__subtitle {
+    color: white; /* Text color */
+    margin-bottom: 50px; /* Bottom margin */
+    animation: fadeInUp 8s ease-in-out infinite; /* Animation */
+}
+
+/* Keyframes for fade-in animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
